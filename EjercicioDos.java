@@ -5,6 +5,8 @@
  */
 package ejerciciodos;
 
+import java.util.Scanner;
+
 /**
  *
  * @author alumno
@@ -16,8 +18,15 @@ public class EjercicioDos {
      * Se debe pedir un nombre y se debe mostar el  mismo nombre
      */
     public static void main(String[] args) {
+         // TODO code application logic here
+        String nombre;
+        Scanner miscanner = new Scanner (System.in);
+        System.out.println("Ingrese el nombre");
+        nombre =miscanner.nextLine();
+        System.out.println("el nombre ingresado es "+ nombre );
         
-        // TODO code application logic here
+               
+       
     }
     
 }

@@ -17,6 +17,7 @@ public class EjercicioUno {
      * Esto funciona de maravilla
      */
     public static void main(String[] args) {
+        System.out.println("Esto funciona de maravilla");
         // TODO code application logic here
     }
     
